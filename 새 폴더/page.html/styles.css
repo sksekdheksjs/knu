@@ -1,0 +1,107 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #000;
+  color: #fff;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+  margin: 0;
+}
+
+header nav button {
+  background-color: #ff0000;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+header nav button:hover {
+  background-color: #cc0000;
+}
+
+main {
+  padding: 20px;
+}
+
+#auth {
+  text-align: center;
+}
+
+#auth form {
+  display: inline-block;
+  text-align: left;
+}
+
+.hidden {
+  display: none;
+}
+
+#new-post {
+  margin-bottom: 20px;
+}
+
+#posts, #follower-list {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.post, .follower {
+  border-bottom: 1px solid #ddd;
+  padding: 10px 0;
+}
+
+.post:last-child, .follower:last-child {
+  border-bottom: none;
+}
+
+.post header, .follower {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.post-content {
+  margin: 10px 0;
+}
+
+.post-actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.post-actions button, .follower button {
+  background-color: #000;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.post-actions button:hover, .follower button:hover {
+  background-color: #444;
+}
+
+footer {
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
